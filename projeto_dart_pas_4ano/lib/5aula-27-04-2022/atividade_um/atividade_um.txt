@@ -1,0 +1,45 @@
+/*
+Exercício I
+Arquivo a - Conseguiu entender o contexto? Explique.
+  R: Sim, o uso de arrow function é bom nos casos de funções que não sejam métodos.
+Arquivo b 
+1) Qual a diferença em relação ao código do arquivo anterior? Na sua opinão, o que melhorou e o que piorou?
+  R: Após a alteração com a utilização de funções nos parâmetros, o algoritmo ficou mais fácil de entender, e mais modularizado.
+2) O que é e para que serve parâmtros do tipo função? Em que caso utilizamos?
+  R: Serve para quando utilizamos a mesma função principal (no caso a função "verificarAprovacao" e como último parâmetro dela, passamos qual a função queremos utilizar como parâmetro, e essa função passada nos retorna o valor.
+    Quando precisamos de ações dinâmicas para realizar alguma função, podemos utilizar um parâmetro do tipo função (Function Parameters).
+3) O que é função nomeada? Para que serve? Quando utilizamos?
+  R: Função nomeada seria uma função que contém nome, ela é mais usada nos casos em que ela poderá ser chamada de vários locais no código (várias vezes).
+
+Arquivo c 
+1) Qual a diferença em relação ao código anterior? Na sua opinão, o que melhorou e o que piorou?
+  R: Código com uso de arrow functions, acredito que melhorou, pois para ações simples pode-se utilizar arrow functions.
+2) Entendeu melhor o objetivo do parâmetro do tipo função?
+  R: Sim, ele é utilizado quando precisamos de ações dinâmicas para realizar alguma função (ou seja, quando a função passada por parâmetro pode mudar).
+3) O que é e para que serve uma função anônima?
+  R: É uma função que não tem nome, não é possível reutilizar ela em várias partes do código (como a função nomeada).
+4) Qual a diferença entre função anônima e nomeada? Em qual situção utilizamos cada uma? Pode-se utilizar ambas no mesmo contexto? Explique.
+  R: - Função anônima: não tem nome, não dá para reutilizar
+     - Função nomeada: tem nome, é possível reutilizar várias vezes no código.
+     Depende do contexto, caso a função seja executada uma única vez, pode-se utilizar a função anônima, caso repita o uso, utilize função nomeada.
+
+Arquivo d - Qual a diferença em relação ao código anterior? Na sua opinão, o que melhorou e o que piorou?
+  R: Melhorou por conta das arrow functions, onde são utilizadas funções anônimas/arrow functions em funções simples do sistema.
+*/
+
+/*
+Exercício II - Defina 3 funções do mesmo contexto e um menu para estas funções
+Nesta prática, eu já estou definindo o contexto. Assim, o objetivo é você entender e treinar a sintaxe.
+→ Receber salario e um valor. Adicionar o valor no salário e informar o % adicioando em relação ao salário.
+→ Receber salario e um valor. Descontar o valor no salário e informar o % descontado em relação ao salário.
+→ Receber salario e um valor. Neste caso o valor é o bônus que tem encargo de 10%. Adicionar o bônus (já com o desconto do encargo) no salário e informar o % adicioando em relação ao salário.
+→ Menu para acesso das funções
+*/
+
+/*
+Exercício III
+Nesta atividade, o objetivo é fazer com que você entenda o contexto.
+Pensar em um projeto único 
+Fazer um exemplo seu
+Fazer comentários de tudo que entendeu
+*/
